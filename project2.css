@@ -1,0 +1,116 @@
+body {
+  background-color: lightslategray;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  background-color: blue;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.paginacontent {
+  margin: 20px;
+}
+
+#bank-app {
+  background-color: lightgray;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#saldoDisplay {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul#transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul#transaction-list li {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+#saldo-controls {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#saldo-controls input {
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#saldo-controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+#saldo-controls button:hover {
+  background-color: #ddd;
+}
+.paginacontent{margin-left: 20px;}
+
+#overschrijving-controls {
+  margin: 20px auto;
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#overschrijving-controls input, #overschrijving-controls select {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#overschrijving-controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+#overschrijving-controls button:hover {
+  background-color: #ddd;
+}

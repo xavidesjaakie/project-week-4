@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project2.css">
+    <title>Rekeningen</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="project2.html">Home</a></li>
+                <li><a href="project2 pagina2.html">Rekeningen</a></li>
+                <li><a href="project 2 pagina 3.html">Overschrijvingen</a></li>
+                <li><button id="logout">Uitloggen</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="bank-app">
+        <h2>Rekeningen Beheren</h2>
+        <p>Selecteer of voeg een rekening toe:</p>
+
+        <select id="rekeningSelect"></select>
+        <button id="nieuweRekening">Nieuwe Rekening</button>
+
+        <h3>Saldo: <span id="saldoDisplay">€0.00</span></h3>
+
+        <div id="saldo-controls">
+            <input type="number" id="bedragInput" placeholder="Bedrag invoeren">
+            <button id="toevoegen">Toevoegen</button>
+            <button id="afnemen">Afnemen</button>
+        </div>
+
+        <h3>Transacties:</h3>
+        <ul id="transaction-list"></ul>
+
+        <div id="overschrijving-controls">
+            <h3>Geld Overschrijven</h3>
+            <label for="naarRekeningSelect">Naar:</label>
+            <select id="naarRekeningSelect"></select>
+            <input type="number" id="overschrijvingBedrag" placeholder="Bedrag invoeren">
+            <button id="overschrijven">Overschrijven</button>
+        </div>
+    </div>
+
+    <script src="Project2.js"></script>
+</body>
+</html>
